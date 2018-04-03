@@ -35,3 +35,29 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
+
+.container {
+  display: grid;
+
+  // EXPLICIT GRID TRACKS
+  // 80vh - 1st row adapts to the viewport height
+  // min-content - 2nd row adapts to the minimum content size
+  // 40vw - 3rd row width adapts to the viewport
+  // repeat(3, min-content) - 4th, 5th and 6th rows adapt to the content height
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+
+  // 8rem - sidebar
+  // 1fr - placeholder column to seperate sidebar from other full-bleed sections
+  // repeat(8, minmax(min-content, 14rem))
+  //      - 8 equally sized columns for the full-bleed sections centered in vw
+  //      - with fixed width (1140px/8px) layout
+  //      - each column sized between the minimum content and max 14rem
+  // minmax(6rem, 1fr) - column with min width of 6rem to occupy the remaining space in layout
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+  // SELECT ALL DIRECT CHILDREN FOR THE CONTAINER
+  & > * {
+    font-size: 3rem;
+    padding: 40px;
+  }
+}

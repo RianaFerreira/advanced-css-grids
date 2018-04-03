@@ -19,6 +19,43 @@ The **devserver** script has been configured to launch FireFox as the default br
 $ npm start
 ```
 
+### SETUP THE LAYOUT
+* Basic HTML markup structure.
+* Basic css style per HTML component.
+* CSS named grid layout - sidebar with full-bleed sections that are centered in the viewport.
+* Differ row and track sizes based on content type.
+
+### NESTING GRIDS
+* responsive components without media queries
+* small component built with CSS grid
+
+### NEXT
+* topic
+* topic
+
+### NEXT
+* topic
+* topic
+
+### NEXT
+* topic
+* topic
+
+### NEXT
+* topic
+* topic
+
+### NEXT
+* topic
+* topic
+
+### NEXT
+* topic
+* topic
+
+### NEXT
+* topic
+* topic
 
 ### REFERENCES
 Sass & cheatsheet https://css-tricks.com/the-sass-ampersand/
