@@ -1,4 +1,34 @@
 .features {
-  background-color: $color-grey-light-2;
   grid-column: center-start / center-end;
+
+  margin: 15rem 0;
+
+  // change into a nested grid container "sub grid"
+  display: grid;
+  // don't need to specify rows, implicity grid is created instead
+  // grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));  // responsive grid layout
+  grid-gap: 6rem;
+  align-items: start;
+}
+
+.feature {
+  // change into a nested grid container
+  display: grid;
+  grid-template-columns: min-content 1fr;  // icon and text
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem;
+
+  &__icon {
+    fill: $color-primary;
+    height: 4.5rem;
+    width: 4.5rem;
+    transform: translateY(-1rem);
+
+    grid-row: 1 / span 2;  // -1 represents the end of the explicit grid rows
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
 }
