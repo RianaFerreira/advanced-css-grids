@@ -25,22 +25,21 @@ $ npm start
 * CSS named grid layout - sidebar with full-bleed sections that are centered in the viewport.
 * Differ row and track sizes based on content type.
 
-### NESTING GRIDS
+### FEATURES - NESTING GRIDS
 * Responsive components without media queries.
 * Small component built with CSS grid.
 
-### OVERLAPPING GRIDS
+### STORY - OVERLAPPING GRIDS
 * Images vs other grid items.
 * Integrating use of Flexbox.
 
-### COMBINED CSS layout techniques
+### HOMES - COMBINED CSS layout techniques
 * advanced CSS grid properties
 * overlapping
 * Flexbox
 
-### NEXT
-* topic
-* topic
+### GALLERY COMPLEX GRID
+* `object-fit` with images for grid items
 
 ### NEXT
 * topic
