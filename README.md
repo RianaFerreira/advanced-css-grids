@@ -33,9 +33,10 @@ $ npm start
 * Images vs other grid items.
 * Integrating use of Flexbox.
 
-### NEXT
-* topic
-* topic
+### COMBINED CSS layout techniques
+* advanced CSS grid properties
+* overlapping
+* Flexbox
 
 ### NEXT
 * topic
