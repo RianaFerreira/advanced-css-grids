@@ -67,7 +67,8 @@ $ npm run build:css
 Sass & cheatsheet https://css-tricks.com/the-sass-ampersand/
 
 CSS grid pens:
-* responsive layouts
+* auto fit and fill properties https://codepen.io/Riana_Ferreira/pen/LdrJLX
+* track min and max properties https://codepen.io/Riana_Ferreira/pen/pLKZQg
 * align grid tracks to grid containers https://codepen.io/Riana_Ferreira/pen/Gxxrmb
 * align grid items to grid areas https://codepen.io/Riana_Ferreira/pen/EEEZav
 * base setup https://codepen.io/Riana_Ferreira/pen/jzzyNP
