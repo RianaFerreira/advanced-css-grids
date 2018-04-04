@@ -2,7 +2,7 @@
 
 Advanced css exploring the use of grid to build a website.
 
-Browser support
+Browser support https://caniuse.com/#search=grid
 
 Use with FireFox browser for excellent devtools support.
 
@@ -44,9 +44,10 @@ $ npm start
 ### RESPONSIVE LAYOUT
 * media queries
 
-### NEXT
-* topic
-* topic
+### PROGRESSIVE ENHANCEMENT
+* Provide fallback css for older browsers that support CSS grid.
+* Feature component example using floats instead.
+* Grid and Flexbox ignore: floats, display: inline-block / table-cell, and vertical-align. No need to reset these properties.
 
 ### REFERENCES
 Sass & cheatsheet https://css-tricks.com/the-sass-ampersand/
