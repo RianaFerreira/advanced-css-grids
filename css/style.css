@@ -263,4 +263,35 @@ body {
 
 .footer {
   background-color: #101d2c;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  padding: 8rem; }
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center; }
+  .nav__link:link, .nav__link:visited {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s; }
+  .nav__link:hover, .nav__link:active {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-3px); }
+
+.copyright {
+  color: #aaa;
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-top: 6rem;
+  margin-right: auto;
+  text-align: center;
+  width: 70%; }
