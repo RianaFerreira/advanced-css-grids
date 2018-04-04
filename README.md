@@ -26,12 +26,12 @@ $ npm start
 * Differ row and track sizes based on content type.
 
 ### NESTING GRIDS
-* responsive components without media queries
-* small component built with CSS grid
+* Responsive components without media queries.
+* Small component built with CSS grid.
 
-### NEXT
-* topic
-* topic
+### OVERLAPPING GRIDS
+* Images vs other grid items.
+* Integrating use of Flexbox.
 
 ### NEXT
 * topic
