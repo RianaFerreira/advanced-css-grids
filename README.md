@@ -41,17 +41,8 @@ $ npm start
 ### GALLERY COMPLEX GRID
 * `object-fit` with images for grid items
 
-### NEXT
-* topic
-* topic
-
-### NEXT
-* topic
-* topic
-
-### NEXT
-* topic
-* topic
+### RESPONSIVE LAYOUT
+* media queries
 
 ### NEXT
 * topic
