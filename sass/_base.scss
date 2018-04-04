@@ -15,8 +15,10 @@ $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
 // RESPONSIVE BREAKPOINTS
-$bp-large: 62.5em;     // 1000px / 16px = 62.5rem
-$bp-largest: 75em;     // 1200px / 16px => 65.5rem (browser default)
+$bp-small: 37.5em;     // 600px / 16px => 37.5em
+$bp-medium: 50em;      // 800px / 16px => 50em
+$bp-large: 62.5em;     // 1000px / 16px = 62.5em
+$bp-largest: 75em;     // 1200px / 16px => 65.5em (browser default)
 
 
 // GLOBAL RESET
@@ -74,5 +76,12 @@ body {
     // because 1rem = 8px at this viewport size
     grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
     grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    // 6rem => sidebar
+    // calc(100vh - 6rem) => header
+    // remaining cells sizes will be based on the content width
+    grid-template-rows: 6rem calc(100vh - 6rem);
   }
 }
