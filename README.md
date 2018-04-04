@@ -19,6 +19,12 @@ The **devserver** script has been configured to launch FireFox as the default br
 $ npm start
 ```
 
+Include CSS prefixes automatically and compile the scss into css.
+**NB:** won't include prefixes for grid properties.
+```
+$ npm run build:css
+```
+
 ### SETUP THE LAYOUT
 * Basic HTML markup structure.
 * Basic css style per HTML component.
@@ -48,6 +54,14 @@ $ npm start
 * Provide fallback css for older browsers that support CSS grid.
 * Feature component example using floats instead.
 * Grid and Flexbox ignore: floats, display: inline-block / table-cell, and vertical-align. No need to reset these properties.
+
+### SHORTHAND SYNTAX
+* `.gallery` class example for explicitly defining grid rows and columns.
+
+### CSS GRID CONSIDERATIONS
+* CSS sub-grids would be useful to snap the nested grid tacks to the parent grids.
+* Unable to style specific gaps between cells.
+* Missing selectors for nth rows or nth columns.
 
 ### REFERENCES
 Sass & cheatsheet https://css-tricks.com/the-sass-ampersand/
